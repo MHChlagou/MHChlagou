@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Mohamed Hedi CHLAGOU
-- 👀 I’m a DevSecOps Engineer
+- 👀 I’m a Tech Lead DevSecOps & Pentester
 - 📫 How to reach me : chlagoumedhedi@outlook.com
 
 <!---
