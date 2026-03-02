@@ -4,7 +4,7 @@
 
 > Securing the pipeline. Breaking the perimeter. Building trust in every deployment.
 
-[![LinkedIn](https://img.shields.io/badge/-chlagou--med--hedi-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chlagou-med-hedi/)
+[![LinkedIn](https://img.shields.io/badge/-linkedin-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chlagou-med-hedi/)
 [![Email](https://img.shields.io/badge/-chlagoumedhedi@outlook.com-0078D4?style=flat&logo=microsoftoutlook&logoColor=white)](mailto:chlagoumedhedi@outlook.com)
 
 ---
