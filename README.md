@@ -45,17 +45,6 @@ motto: "Automate everything. Trust nothing. Verify always."
 
 ---
 
-<details>
-<summary>📊 GitHub Stats</summary>
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=MHChlagou&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=MHChlagou&theme=github-dark-blue&hide_border=true&background=0d1117" width="49%" />
-
-</details>
-
----
-
 <sub>🔒 *"Security is not a product, but a process."* — Bruce Schneier</sub>
 
 <!---
