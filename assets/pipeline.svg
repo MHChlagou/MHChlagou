@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="190" viewBox="0 0 860 190" role="img" aria-labelledby="title">
+<title id="title">DevSecOps pipeline: plan, code, build, test, release, deploy, operate, monitor, each stage behind a security gate</title>
+<defs>
+  <filter id="glow" x="-200%" y="-200%" width="500%" height="500%">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<style>
+text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+.head { font-size: 12px; }
+.num { font-size: 13px; font-weight: bold; }
+.stage { font-size: 13px; font-weight: bold; }
+.gate { font-size: 11px; }
+</style>
+<rect x="0.5" y="0.5" width="859" height="189" rx="10" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="30" class="head" fill="#8b949e">// secure delivery pipeline</text>
+<g>
+  <text x="836" y="30" class="head" text-anchor="end" fill="#d29922" opacity="1">● pipeline running
+    <animate attributeName="opacity" values="1;0" keyTimes="0;0.889" calcMode="discrete" dur="9s" repeatCount="indefinite"/>
+  </text>
+  <text x="836" y="30" class="head" text-anchor="end" fill="#3fb950" opacity="0">✔ all gates passed
+    <animate attributeName="opacity" values="0;1" keyTimes="0;0.889" calcMode="discrete" dur="9s" repeatCount="indefinite"/>
+  </text>
+</g>
+<line x1="40" y1="96" x2="820" y2="96" stroke="#30363d" stroke-width="2" stroke-dasharray="4 8">
+  <animate attributeName="stroke-dashoffset" from="0" to="-12" dur="0.6s" repeatCount="indefinite"/>
+</line>
+<line x1="40" y1="96" x2="40" y2="96" stroke="#3fb950" stroke-width="2" opacity="0.7">
+  <animate attributeName="x2" values="40;820;820" keyTimes="0;0.889;1" dur="9s" repeatCount="indefinite"/>
+</line>
+<g>
+  <circle cx="66" cy="96" r="22" fill="none" stroke="#3fb950" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="22;22;36;36" keyTimes="0;0.03;0.13;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.8;0;0" keyTimes="0;0.03;0.031;0.13;1" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="66" cy="96" r="22" fill="#161b22" stroke="#30363d" stroke-width="2">
+    <animate attributeName="stroke" values="#30363d;#3fb950" keyTimes="0;0.03" calcMode="discrete" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <text x="66" y="101" class="num" text-anchor="middle" fill="#8b949e">01<animate attributeName="fill" values="#8b949e;#3fb950" keyTimes="0;0.03" calcMode="discrete" dur="9s" repeatCount="indefinite"/></text>
+  <text x="66" y="142" class="stage" text-anchor="middle" fill="#e6edf3">Plan</text>
+  <text x="66" y="162" class="gate" text-anchor="middle" fill="#f85149">threat model</text>
+</g>
+<g>
+  <circle cx="170" cy="96" r="22" fill="none" stroke="#3fb950" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="22;22;36;36" keyTimes="0;0.148;0.248;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.8;0;0" keyTimes="0;0.148;0.149;0.248;1" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="170" cy="96" r="22" fill="#161b22" stroke="#30363d" stroke-width="2">
+    <animate attributeName="stroke" values="#30363d;#3fb950" keyTimes="0;0.148" calcMode="discrete" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <text x="170" y="101" class="num" text-anchor="middle" fill="#8b949e">02<animate attributeName="fill" values="#8b949e;#3fb950" keyTimes="0;0.148" calcMode="discrete" dur="9s" repeatCount="indefinite"/></text>
+  <text x="170" y="142" class="stage" text-anchor="middle" fill="#e6edf3">Code</text>
+  <text x="170" y="162" class="gate" text-anchor="middle" fill="#f85149">SAST · secrets</text>
+</g>
+<g>
+  <circle cx="274" cy="96" r="22" fill="none" stroke="#3fb950" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="22;22;36;36" keyTimes="0;0.267;0.367;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.8;0;0" keyTimes="0;0.267;0.268;0.367;1" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="274" cy="96" r="22" fill="#161b22" stroke="#30363d" stroke-width="2">
+    <animate attributeName="stroke" values="#30363d;#3fb950" keyTimes="0;0.267" calcMode="discrete" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <text x="274" y="101" class="num" text-anchor="middle" fill="#8b949e">03<animate attributeName="fill" values="#8b949e;#3fb950" keyTimes="0;0.267" calcMode="discrete" dur="9s" repeatCount="indefinite"/></text>
+  <text x="274" y="142" class="stage" text-anchor="middle" fill="#e6edf3">Build</text>
+  <text x="274" y="162" class="gate" text-anchor="middle" fill="#f85149">SCA · SBOM</text>
+</g>
+<g>
+  <circle cx="378" cy="96" r="22" fill="none" stroke="#3fb950" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="22;22;36;36" keyTimes="0;0.385;0.485;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.8;0;0" keyTimes="0;0.385;0.386;0.485;1" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="378" cy="96" r="22" fill="#161b22" stroke="#30363d" stroke-width="2">
+    <animate attributeName="stroke" values="#30363d;#3fb950" keyTimes="0;0.385" calcMode="discrete" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <text x="378" y="101" class="num" text-anchor="middle" fill="#8b949e">04<animate attributeName="fill" values="#8b949e;#3fb950" keyTimes="0;0.385" calcMode="discrete" dur="9s" repeatCount="indefinite"/></text>
+  <text x="378" y="142" class="stage" text-anchor="middle" fill="#e6edf3">Test</text>
+  <text x="378" y="162" class="gate" text-anchor="middle" fill="#f85149">DAST · pentest</text>
+</g>
+<g>
+  <circle cx="482" cy="96" r="22" fill="none" stroke="#3fb950" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="22;22;36;36" keyTimes="0;0.504;0.604;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.8;0;0" keyTimes="0;0.504;0.505;0.604;1" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="482" cy="96" r="22" fill="#161b22" stroke="#30363d" stroke-width="2">
+    <animate attributeName="stroke" values="#30363d;#3fb950" keyTimes="0;0.504" calcMode="discrete" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <text x="482" y="101" class="num" text-anchor="middle" fill="#8b949e">05<animate attributeName="fill" values="#8b949e;#3fb950" keyTimes="0;0.504" calcMode="discrete" dur="9s" repeatCount="indefinite"/></text>
+  <text x="482" y="142" class="stage" text-anchor="middle" fill="#e6edf3">Release</text>
+  <text x="482" y="162" class="gate" text-anchor="middle" fill="#f85149">sign · verify</text>
+</g>
+<g>
+  <circle cx="586" cy="96" r="22" fill="none" stroke="#3fb950" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="22;22;36;36" keyTimes="0;0.622;0.722;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.8;0;0" keyTimes="0;0.622;0.623;0.722;1" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="586" cy="96" r="22" fill="#161b22" stroke="#30363d" stroke-width="2">
+    <animate attributeName="stroke" values="#30363d;#3fb950" keyTimes="0;0.622" calcMode="discrete" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <text x="586" y="101" class="num" text-anchor="middle" fill="#8b949e">06<animate attributeName="fill" values="#8b949e;#3fb950" keyTimes="0;0.622" calcMode="discrete" dur="9s" repeatCount="indefinite"/></text>
+  <text x="586" y="142" class="stage" text-anchor="middle" fill="#e6edf3">Deploy</text>
+  <text x="586" y="162" class="gate" text-anchor="middle" fill="#f85149">IaC · policy</text>
+</g>
+<g>
+  <circle cx="690" cy="96" r="22" fill="none" stroke="#3fb950" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="22;22;36;36" keyTimes="0;0.741;0.841;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.8;0;0" keyTimes="0;0.741;0.742;0.841;1" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="690" cy="96" r="22" fill="#161b22" stroke="#30363d" stroke-width="2">
+    <animate attributeName="stroke" values="#30363d;#3fb950" keyTimes="0;0.741" calcMode="discrete" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <text x="690" y="101" class="num" text-anchor="middle" fill="#8b949e">07<animate attributeName="fill" values="#8b949e;#3fb950" keyTimes="0;0.741" calcMode="discrete" dur="9s" repeatCount="indefinite"/></text>
+  <text x="690" y="142" class="stage" text-anchor="middle" fill="#e6edf3">Operate</text>
+  <text x="690" y="162" class="gate" text-anchor="middle" fill="#f85149">Vault · WAF</text>
+</g>
+<g>
+  <circle cx="794" cy="96" r="22" fill="none" stroke="#3fb950" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="22;22;36;36" keyTimes="0;0.859;0.959;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.8;0;0" keyTimes="0;0.859;0.86;0.959;1" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="794" cy="96" r="22" fill="#161b22" stroke="#30363d" stroke-width="2">
+    <animate attributeName="stroke" values="#30363d;#3fb950" keyTimes="0;0.859" calcMode="discrete" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <text x="794" y="101" class="num" text-anchor="middle" fill="#8b949e">08<animate attributeName="fill" values="#8b949e;#3fb950" keyTimes="0;0.859" calcMode="discrete" dur="9s" repeatCount="indefinite"/></text>
+  <text x="794" y="142" class="stage" text-anchor="middle" fill="#e6edf3">Monitor</text>
+  <text x="794" y="162" class="gate" text-anchor="middle" fill="#f85149">SIEM · alerts</text>
+</g>
+<circle r="5" fill="#3fb950" filter="url(#glow)">
+  <animateMotion path="M40 96 H820" keyPoints="0;1;1" keyTimes="0;0.889;1" calcMode="linear" dur="9s" repeatCount="indefinite"/>
+</circle>
+</svg>

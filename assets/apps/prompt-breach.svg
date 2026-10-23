@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="424" height="184" viewBox="0 0 424 184" role="img" aria-labelledby="title">
+<title id="title">PROMPT//BREACH: Cyberpunk prompt-injection simulator. Attack a bot as red team, then defend it as blue team.</title>
+<defs>
+  <linearGradient id="top" x1="0" x2="1"><stop offset="0" stop-color="#f778ba"/><stop offset="1" stop-color="#f778ba" stop-opacity="0"/></linearGradient>
+  <linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+  <radialGradient id="halo" cx="0" cy="0" r="254" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f778ba" stop-opacity="0.12"/><stop offset="1" stop-color="#f778ba" stop-opacity="0"/></radialGradient>
+  <clipPath id="card"><rect x="0.5" y="0.5" width="423" height="183" rx="10"/></clipPath>
+</defs>
+<style>
+.sans { font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+</style>
+<g clip-path="url(#card)">
+  <rect width="424" height="184" fill="#0d1117"/>
+  <rect width="424" height="184" fill="url(#halo)"/>
+  <rect width="424" height="2" fill="url(#top)"/>
+  <rect x="-160" y="0" width="160" height="184" fill="url(#sweep)" transform="skewX(-20)">
+    <animate attributeName="x" values="-160;584;584" keyTimes="0;0.25;1" dur="8s" begin="1.0s" repeatCount="indefinite"/>
+  </rect>
+</g>
+<rect x="0.5" y="0.5" width="423" height="183" rx="10" fill="none" stroke="#30363d"/>
+<rect x="24" y="24" width="44" height="44" rx="10" fill="#f778ba" fill-opacity="0.1" stroke="#f778ba" stroke-opacity="0.45"/><g transform="translate(24 24)" fill="none" stroke="#f778ba" color="#f778ba" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 11 H34 A3 3 0 0 1 37 14 V27 A3 3 0 0 1 34 30 H21 L14 36 V30 H10 A3 3 0 0 1 7 27 V14 A3 3 0 0 1 10 11 Z"/><path d="M22 16 V22 M22 25.5 V26"/><animate attributeName="opacity" values="1;1;0.2;1;0.4;1;1" keyTimes="0;0.8;0.82;0.84;0.86;0.88;1" dur="4s" repeatCount="indefinite"/></g>
+<text x="82" y="43" class="sans" font-size="18" font-weight="700" fill="#e6edf3">PROMPT//BREACH</text>
+<text x="82" y="62" class="mono" font-size="10.5" letter-spacing="1.5" fill="#f778ba">AI SECURITY · TRAINING GAME</text>
+<text x="402" y="42" class="mono" font-size="16" text-anchor="end" fill="#8b949e">↗</text>
+<text x="24" y="104" class="sans" font-size="13.5" fill="#8b949e">Cyberpunk prompt-injection simulator. Attack a bot</text><text x="24" y="123" class="sans" font-size="13.5" fill="#8b949e">as red team, then defend it as blue team.</text>
+<rect x="24" y="142" width="84.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text x="66.0" y="157" class="mono" font-size="11" text-anchor="middle" fill="#c9d1d9">TypeScript</text><rect x="116.0" y="142" width="84.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text x="158.0" y="157" class="mono" font-size="11" text-anchor="middle" fill="#c9d1d9">6 missions</text><rect x="208.0" y="142" width="84.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/><text x="250.0" y="157" class="mono" font-size="11" text-anchor="middle" fill="#c9d1d9">in-browser</text>
+</svg>

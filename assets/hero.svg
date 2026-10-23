@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="240" viewBox="0 0 860 240" role="img" aria-labelledby="title">
+<title id="title">Mohamed Hedi CHLAGOU, Tech Lead DevSecOps and Pentester. Securing the pipeline. Breaking the perimeter. Building trust in every deployment.</title>
+<defs>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0 H0 V24" fill="none" stroke="#161b22" stroke-width="1"/>
+  </pattern>
+  <radialGradient id="glow" cx="742" cy="120" r="190" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#3fb950" stop-opacity="0.16"/>
+    <stop offset="1" stop-color="#3fb950" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="fade" x1="0" x2="1">
+    <stop offset="0" stop-color="#0d1117" stop-opacity="0.9"/>
+    <stop offset="0.55" stop-color="#0d1117" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="shimmer" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0">
+    <stop offset="0" stop-color="#e6edf3"/>
+    <stop offset="0.42" stop-color="#e6edf3"/>
+    <stop offset="0.5" stop-color="#3fb950"/>
+    <stop offset="0.58" stop-color="#58a6ff"/>
+    <stop offset="0.66" stop-color="#e6edf3"/>
+    <stop offset="1" stop-color="#e6edf3"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-700 0;700 0;700 0" keyTimes="0;0.6;1" dur="7s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="scan" x1="0" x2="0" y1="0" y2="1">
+    <stop offset="0" stop-color="#3fb950" stop-opacity="0"/>
+    <stop offset="1" stop-color="#3fb950" stop-opacity="0.12"/>
+  </linearGradient>
+  <clipPath id="frame"><rect x="0.5" y="0.5" width="859" height="239" rx="10"/></clipPath>
+</defs>
+<style>
+.sans { font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+</style>
+<g clip-path="url(#frame)">
+  <rect width="860" height="240" fill="#0d1117"/>
+  <rect width="860" height="240" fill="url(#grid)"/>
+  <rect width="860" height="240" fill="url(#glow)"/>
+  <rect width="860" height="240" fill="url(#fade)"/>
+  <rect x="0" y="-60" width="860" height="60" fill="url(#scan)">
+    <animate attributeName="y" values="-60;240" dur="6s" repeatCount="indefinite"/>
+  </rect>
+</g>
+<rect x="0.5" y="0.5" width="859" height="239" rx="10" fill="none" stroke="#30363d"/>
+
+<text x="48" y="66" class="mono" font-size="12" letter-spacing="3" fill="#3fb950">// DEVSECOPS · OFFENSIVE SECURITY</text>
+<text x="46" y="118" class="sans" font-size="42" font-weight="700" fill="url(#shimmer)">Mohamed Hedi CHLAGOU</text>
+<text x="48" y="152" class="mono" font-size="14" letter-spacing="2.5" fill="#58a6ff">TECH LEAD DEVSECOPS &amp; PENTESTER</text>
+<rect x="48" y="172" width="40" height="2" rx="1" fill="#3fb950">
+  <animate attributeName="width" values="40;120;40" dur="4s" repeatCount="indefinite"/>
+</rect>
+<text x="48" y="202" class="sans" font-size="14" fill="#8b949e">Securing the pipeline. Breaking the perimeter. Building trust in every deployment.</text>
+
+<g transform="translate(742 120)" fill="none">
+  <circle r="86" stroke="#30363d" stroke-width="1" stroke-dasharray="2 6">
+    <animateTransform attributeName="transform" type="rotate" values="0;360" dur="60s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="70" stroke="#3fb950" stroke-width="2" stroke-linecap="round" stroke-dasharray="70 370" opacity="0.8">
+    <animateTransform attributeName="transform" type="rotate" values="0;360" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="70" stroke="#58a6ff" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="30 410" opacity="0.6">
+    <animateTransform attributeName="transform" type="rotate" values="200;-160" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <g>
+    <circle cx="86" cy="0" r="3" fill="#3fb950" stroke="none"/>
+    <animateTransform attributeName="transform" type="rotate" values="0;360" dur="12s" repeatCount="indefinite"/>
+  </g>
+  <path d="M0 -40 L32 -27 V-2 C32 20 17 34 0 40 C-17 34 -32 20 -32 -2 V-27 Z" transform="scale(1.15)" fill="#0f1a14" stroke="#3fb950" stroke-width="2" stroke-linejoin="round">
+    <animate attributeName="stroke-opacity" values="1;0.55;1" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <path d="M-15 0 L-4 11 L17 -12" stroke="#3fb950" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="48" stroke-dashoffset="48">
+    <animate attributeName="stroke-dashoffset" values="48;0;0;48" keyTimes="0;0.15;0.85;1" dur="5s" repeatCount="indefinite"/>
+  </path>
+</g>
+</svg>
